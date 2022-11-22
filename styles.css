@@ -1,11 +1,180 @@
 body{
-    background-color: blanchedalmond;
+
     text-align: center;
     text-decoration-color: #2d411b;
 }
 
-container-fluid{
-    width: 100%;
-    padding: 5% 15%;
 
+.container-fluid{
+    padding: 7% 15%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.big-heading{
+
+    line-height:1.5;
+    font-weight: 900;  
+    font-size: 3.5rem;
+
+}
+
+.section-heading{
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+/* Navigation bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family:'Ubuntu';
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-family: 'Montserrat-light';
+    font-size:1.2rem
+}
+
+/* Button */
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+/* 
+Title section */
+
+#title{
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 5% 7%;
+}
+
+/* Title Image */
+    .title-image{
+        width: 20%;
+        transform: rotate(25deg);
+        right: 25%;
+        top:25%;
+      
+        position: absolute;
+    
+    }
+
+
+
+#features{
+  background-color: white;
+  position: relative;
+
+
+}
+.feature-title{
+    line-height: 1.5rem;
+}
+
+.feature-box{
+  padding: 4.5%;
+}
+
+
+p{
+    color:#8f8f88;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: burlywood;
+}
+
+  /* Testimonial  */
+ #testimonials 
+{
+  background-color:DarkSalmon;
+}  
+
+
+.testimonial-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.price-text{
+   font-size: 3rem; 
+   line-height: 1.5rem;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width:1000px) {
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+    width: 100%;
+   position: static;
+    transform: rotate(0);
+    }
+}
+
+/* CTA section */
+/* #cta{
+
+
+} */
+
+
+.cta-heading{
+    
+    font-family:'Montserrat';
+    font-size: 3.5rem;
+    line-height:1.5;
+    font-weight: 900;  
+}
+
+    .sociaL-links{
+        margin: 20px 10px;
+    }
+
+
+.colored-section{
+    color: #2d411b; 
+    background-color: blanchedalmond;
+    
+}
+
+.white-colored-section{
+ background-color: white;
 }
