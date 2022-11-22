@@ -3,3 +3,9 @@ body{
     text-align: center;
     text-decoration-color: #2d411b;
 }
+
+container-fluid{
+    width: 100%;
+    padding: 5% 15%;
+
+}
